@@ -5,7 +5,7 @@ class Program
     {
         Contabancaria Felipe = new Contabancaria();
         Felipe.titular = "Felipe";
-        Felipe.saldo = 32;
+        // Felipe.saldo = 32;
         Felipe.Exibir();
         Felipe.Sacar(10);
         Felipe.Exibir();
