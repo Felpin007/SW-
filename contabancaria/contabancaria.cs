@@ -2,7 +2,7 @@ namespace contabancaria;
 class Contabancaria
 {
     public string titular = "";
-    public int saldo = 5000;
+    private int saldo = 5000;
 
     public int Sacar(int quanto){
         return saldo -= quanto;
